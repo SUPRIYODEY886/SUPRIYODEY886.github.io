@@ -1,0 +1,45 @@
+body {
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.div1 {
+	color: black;
+	height: 110px;
+	width: 100%;
+	background-color: #ddd;
+	margin: 10px;
+}
+
+.div1 img {
+	height: 110px;
+	width: 100%;
+}
+
+.div2 {
+	color: black;
+	margin: 10px;
+}
+
+p {
+	color: orange;
+	margin: 10px;
+}
+button {
+	text-align: center;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+}
+
+.footer {
+	background-color: skyblue;
+	color: black;
+	text-align: center;
+	margin-top: 24%;
+	padding: 10px;
+}

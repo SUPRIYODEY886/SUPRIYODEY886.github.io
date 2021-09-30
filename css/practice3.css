@@ -31,7 +31,13 @@ body {
 	text-decoration: none;
 	text-align: center;
 }
-
+a {
+	background-color: green;
+	color: green;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
 .nav a:hover {
 	color: black;
 	background-color: #ddd;
@@ -77,13 +83,13 @@ body {
 }
 
 .img2 {
-	height: 200px;
+	height: 250px;
 	background-color: #aaa;
   	width: 100%;
 }
 
 .img2> img {
-	height: 200px;
+	height: 250px;
 	width: 100%;
 }
 
