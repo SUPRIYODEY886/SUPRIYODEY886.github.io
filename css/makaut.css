@@ -1,41 +1,103 @@
+body {
+	margin: 0;
+	background-color: #eee;
+	background-size: cover;
+}
 .container {
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
 }
 
 .div1 {
-	color: black;
-	height: 110px;
-	width: 100%;
-	background-color: #ddd;
-	margin: 10px;
-}
-
-.div1 img {
-	height: 110px;
-	width: 100%;
+	margin-right: 10px;
 }
 
 .div2 {
-	color: black;
-	margin: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #444444;
+	border-top: 4px solid #b2ddf6;
+	height: 40px;
 }
 
-p {
-	color: orange;
-	margin: 10px;
+.div3 {
+	background-color: white;
+	margin: 30px;
+	height: 5cm;
 }
-button {
-	text-align: center;
-	font-size: 15px;
-	background-color: black;
+
+.div4 {
+	display: flex;
+	background-color: #444444;
 	color: white;
+	padding-left: 10px;
+	height: 25px;
+	align-items: center;
+	size: 20px;
+}
+
+.div5 {
+	padding-top: 0.6cm;
+	padding-left: 0.5cm;
+	color: black;
+}
+
+.sup {
+	color: red;
+}
+
+.div6 {
+	padding-top: 0.2cm;
+	padding-left: 0.5cm;
+}
+
+.div6 input {
+	color: #858585;
+	border: 1px solid #d5d5d5;
+	height: 0.8cm;
+	width: 4cm;
+	padding-left: 8px;
+}
+
+.div7 {
+	padding-top: 0.7cm;
+	padding-left: 0.5cm;
+}
+
+.div7 button {
+	background-color: #F4B400;
+	color: white;
+	width: 3cm;
+	padding: 6px 12px;
+	flex-grow: 15;
+	border: 0px solid #F4B400;
+}
+
+.div8 {
+	display: flex;
+	background-color: #1AE3BB;
+	margin: 30px;
+	height: 3cm;
+	padding-left: 0.5cm;
+	color: black;
+	align-items: center;
 }
 
 .footer {
-	background-color: skyblue;
-	color: black;
-	text-align: center;
-	margin-top: 24%;
-	padding: 10px;
+	display: flex;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #990000;
+	height: 40px;
+	margin-top: 150px;
+	font-size: 18px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+.para {
+	display: flex;
+	color: #5DB2FF;
 }
